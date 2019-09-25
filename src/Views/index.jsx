@@ -1,0 +1,6 @@
+export { default as Home } from './Home/Home'
+export { default as DrCao } from './DrCao/DrCao'
+export { default as Member2 } from './Member2/Member2'
+export { default as Member3 } from './Member3/Member3'
+export { default as Member4 } from './Member4/Member4'
+export { default as Member5 } from './Member5/Member5'
