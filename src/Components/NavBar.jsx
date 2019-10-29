@@ -65,11 +65,11 @@ const NavBar = (props) => {
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  <NavLink href="/Cao/">Dr. Cao</NavLink>
+                  <NavLink href="Cao">Dr. Cao</NavLink>
                 </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>
-                  <NavLink href="/Jawwaad/">Jawwaad</NavLink>
+                  <NavLink href="https://master.d1wom0b5xch05x.amplifyapp.com/Jawwaad/">Jawwaad</NavLink>
                 </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>
