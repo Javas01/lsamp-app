@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import {MediaComp} from '../../Components'
-import {Lsamp, placeholder} from '../../Assets'
+import {Lsamp} from '../../Assets'
 
 function Home() {
   const lsampBody = <div>

@@ -1,15 +1,15 @@
 import React from 'react';
-// import './Member5.css';
+// import './Jawwaad.css';
 import { MediaComp } from '../../Components'
-import { placeholder } from '../../Assets'
+import { Jawwaad as jawwaad} from '../../Assets'
 import { LoremIpsum } from '../../constants'
 
-function Member5() {
+function Jawwaad() {
   return (
-    <div className="Member5">
+    <div className="Jawwaad">
       <MediaComp
-        link="Member5" 
-        imgSrc={ placeholder } 
+        link="Jawwaad" 
+        imgSrc={ jawwaad } 
         title="Jawwaad" 
         body={ LoremIpsum } 
       />
@@ -17,4 +17,4 @@ function Member5() {
   );
 }
 
-export default Member5;
+export default Jawwaad;
