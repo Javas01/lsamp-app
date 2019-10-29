@@ -14,7 +14,7 @@ export default function App() {
         <Route path="/Member2" component={Member2} />
         <Route path="/Member3" component={Member3} />
         <Route path="/Member4" component={Member4} />
-        <Route path="/Member5" component={Member5} />
+        <Route path="/Jawwaad" component={Member5} />
       </div>
     </Router>
   );

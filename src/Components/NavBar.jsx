@@ -12,7 +12,7 @@ const NavBar = (props) => (
             <NavDropdown.Item href="/Member2">Staff Member 2</NavDropdown.Item>
             <NavDropdown.Item href="./Member3">Staff Member 3</NavDropdown.Item>
             <NavDropdown.Item href="Member4">Staff Member 4</NavDropdown.Item>
-            <NavDropdown.Item href="Member5">Staff Member 5</NavDropdown.Item>
+            <NavDropdown.Item href="/Jawwaad">Jawwaad</NavDropdown.Item>
           </NavDropdown>
         <Nav.Link href="#features">Research</Nav.Link>
         <Nav.Link href="#pricing">Contact</Nav.Link>
