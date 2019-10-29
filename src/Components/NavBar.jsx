@@ -40,6 +40,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
+  import { NavLink as RouterNavLink } from "react-router-dom";
 
 const NavBar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -65,7 +66,9 @@ const NavBar = (props) => {
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  <NavLink href="Cao">Dr. Cao</NavLink>
+                  <NavLink>
+                    <RouterNavLink to="/Cao">Dr. Cao</RouterNavLink>
+                  </NavLink>
                 </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>
