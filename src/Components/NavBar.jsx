@@ -72,11 +72,15 @@ const NavBar = (props) => {
                 </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>
-                  <NavLink href="https://master.d1wom0b5xch05x.amplifyapp.com/Jawwaad/">Jawwaad</NavLink>
+                  <NavLink>
+                    <RouterNavLink to="/Jawwaad">Jawwaad</RouterNavLink>
+                  </NavLink>
                 </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>
-                  <NavLink href="/Member3/">Member 3</NavLink>
+                  <NavLink>
+                    <RouterNavLink to="/Member3">Member 3</RouterNavLink>
+                  </NavLink>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
